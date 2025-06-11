@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 #define NUM_ACCOUNTS 5
 
 void generateAccounts(double accounts[NUM_ACCOUNTS][2], double interestRate)
