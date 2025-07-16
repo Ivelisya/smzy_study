@@ -19,6 +19,7 @@ void printAccounts(double accounts[NUM_ACCOUNTS][2])
 {
     for (int i = 0; i < NUM_ACCOUNTS; i++)
     {
+        
         printf("账户 %d: 存款金额 = %.2f, 1年后的利息 = %.2f\n", i + 1, accounts[i][0], accounts[i][1]);
     }
 }
