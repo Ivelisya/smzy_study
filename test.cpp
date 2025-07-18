@@ -26,6 +26,7 @@ void printAccounts(double accounts[NUM_ACCOUNTS][2])
 
 int main()
 {
+    
     srand(time(NULL)); // 初始化随机数种子
 
     double fixedAccounts[NUM_ACCOUNTS][2];   // 定期账户
