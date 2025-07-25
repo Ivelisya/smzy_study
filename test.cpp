@@ -10,6 +10,7 @@ void generateAccounts(double accounts[NUM_ACCOUNTS][2], double interestRate)
 {
     for (int i = 0; i < NUM_ACCOUNTS; i++)
     {
+        
         accounts[i][0] = (rand() % 10000) + 1000;       // 随机生成存款金额，范围为1000到10999
         accounts[i][1] = accounts[i][0] * interestRate; // 计算1年后的利息
     }
